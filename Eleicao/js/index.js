@@ -1,12 +1,11 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyA2i_NP9jVxZPMUE7aB78BYd9vi37xeieI",
-    authDomain: "fb-eleicao.firebaseapp.com",
-    databaseURL: "https://fb-eleicao-default-rtdb.firebaseio.com",
-    projectId: "fb-eleicao",
-    storageBucket: "fb-eleicao.appspot.com",
-    messagingSenderId: "737830065356",
-    appId: "1:737830065356:web:318311d096ece85bf05e69"
-};
+    apiKey: "AIzaSyBI2x32t1zD7Q2EBJsZADC5nB6bzkZH8H8",
+    authDomain: "fb-eleicao-7de96.firebaseapp.com",
+    projectId: "fb-eleicao-7de96",
+    storageBucket: "fb-eleicao-7de96.appspot.com",
+    messagingSenderId: "1044584623263",
+    appId: "1:1044584623263:web:2fbfac15b847a3a23686aa"
+  };
 
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
